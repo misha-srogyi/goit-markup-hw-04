@@ -1,0 +1,87 @@
+/* Ховаємо заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.portfolio {
+  padding-top: 94px;
+}
+
+/* Buttons */
+
+.buttons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.buttons li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-title {
+  background: var(--background-button);
+  color: var(--black-text);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+}
+.button-title.active,
+.button-title:hover,
+.button-title:focus {
+  background: var(--blue-text);
+  color: var(--white-text);
+}
+
+.portfolio-title {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--portfolio-title-grap));
+  margin-top: calc(-1 * var(--portfolio-title-grap));
+}
+.card-portfolio {
+  flex-basis: calc(100% / 3 - var(--portfolio-title-grap));
+  margin-left: var(--portfolio-title-grap);
+  margin-top: var(--portfolio-title-grap);
+}
+
+.card-content {
+  padding: 20px 24px;
+}
+.card-headling {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+}
+
+.card-text {
+  margin-top: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+}
