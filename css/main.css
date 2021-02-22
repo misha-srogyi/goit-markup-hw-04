@@ -296,16 +296,18 @@
 }
 
 .customers-item {
-  /* border: 1px solid var(--icon-grey); */
+  border: 1px solid var(--icon-grey);
   text-align: center;
   display: flex;
   justify-content: center;
-  /* border-radius: 4px; */
+  border-radius: 4px;
   width: calc(100% / 6 - 30px);
   height: 90px;
   margin: 0 15px;
 }
-
+.customers-item:hover {
+  border-color: var(--blue-text);
+}
 .customers-link {
   display: flex;
   justify-content: center;
@@ -313,8 +315,6 @@
   width: 170px;
   height: 90px;
   color: var(--blue-text);
-  border: 1px solid var(--icon-grey);
-  border-radius: 4px;
 }
 .customers-link:hover .customers-icon {
   fill: var(--blue-text);
