@@ -84,7 +84,15 @@ header {
   color: var(--blue-text);
 }
 
+.nav-list {
+  list-style-type: none;
+}
+
 /* Footer */
+
+.footer .container {
+  display: flex;
+}
 
 .footer {
   background: #2f303a;
@@ -111,9 +119,6 @@ address {
   flex-direction: column;
 }
 
-.nav-list {
-  list-style-type: none;
-}
 .nav-list-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -171,8 +176,9 @@ address {
   margin-bottom: 9px;
 }
 
+/* Соц.мережі Footer  */
+
 .join-link {
-  display: flex;
   width: 206px;
   margin-left: 70px;
 }
@@ -186,7 +192,14 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text);
+  margin-bottom: 20px;
 }
-.footer .container {
+
+.social-links-title {
   display: flex;
+  justify-content: space-between;
 }
+
+/* .social-link {
+  background-color: var(--icon-background-dark-grey);
+} */
