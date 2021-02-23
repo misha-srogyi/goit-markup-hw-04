@@ -81,6 +81,7 @@
   text-align: center;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 /* .hero-btn {
@@ -264,6 +265,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--icon-background-dark-grey);
 }
 /* SVG */
 
