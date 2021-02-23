@@ -53,10 +53,13 @@
   border-radius: 4px;
 }
 
+/* Карточки Портфоліо */
+
 .portfolio-title {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
   margin-left: calc(-1 * var(--portfolio-title-grap));
   margin-top: calc(-1 * var(--portfolio-title-grap));
 }
@@ -69,6 +72,7 @@
   flex-basis: calc(100% / 3 - var(--portfolio-title-grap));
   margin-left: var(--portfolio-title-grap);
   margin-top: var(--portfolio-title-grap);
+  border: 1px solid #eeeeee;
 }
 
 .card-content {
@@ -93,4 +97,34 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--grey-text);
+}
+
+.social-networks:hover .employee-icon {
+  fill: var(--white-text);
+}
+
+.social-networks:hover .social-link {
+  background-color: var(--blue-text);
+}
+
+.social-link:hover {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  /* background-color: #fff; */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--icon-background-dark-grey);
+}
+/* SVG */
+
+.employee-icon {
+  fill: currentColor;
+  fill: var(--grey-text);
 }
