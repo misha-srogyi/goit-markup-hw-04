@@ -203,6 +203,11 @@ address {
 .footer-icon {
   fill: var(--white-text);
 }
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
 /* .social-link {
   background-color: var(--icon-background-dark-grey);
 } */
