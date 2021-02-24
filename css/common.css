@@ -200,6 +200,9 @@ address {
   justify-content: space-between;
 }
 
+.footer-icon {
+  fill: var(--white-text);
+}
 /* .social-link {
   background-color: var(--icon-background-dark-grey);
 } */

@@ -240,11 +240,16 @@
   list-style-type: none;
   margin-top: 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: var(--white-text);
 }
 
-.social-networks:hover .employee-icon {
+/* .social-networks:hover .employee-icon {
+  fill: var(--white-text);
+} */
+
+.social-link:hover .employee-icon,
+.social-link:focus .employee-icon {
   fill: var(--white-text);
 }
 
@@ -252,7 +257,8 @@
   background-color: var(--blue-text);
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--blue-text);
   color: var(--white-text);
 }
@@ -270,7 +276,7 @@
 
 .employee-icon {
   fill: currentColor;
-  fill: var(--grey-text);
+  fill: var(--icon-grey);
 }
 
 /* .employee-icon {
@@ -322,7 +328,8 @@
   height: 90px;
   color: var(--blue-text);
 }
-.customers-link:hover .customers-icon {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
   fill: var(--blue-text);
 }
 /* SVG */
