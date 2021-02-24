@@ -252,8 +252,7 @@
   background-color: var(--blue-text);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover {
   background-color: var(--blue-text);
   color: var(--white-text);
 }
